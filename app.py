@@ -60,7 +60,7 @@ def main():
     else:
         result = run_operator(value_list[0], value_list[1], operators_list[0])
 
-    print("Вывод", "\t"*2, "<<", second_step)
+    print("Вывод", "\t"*2, "<<", result)
     return 0
 
 
